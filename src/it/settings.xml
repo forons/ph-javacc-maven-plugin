@@ -32,4 +32,14 @@
       </pluginRepositories>
     </profile>
   </profiles>
+  <!-- If you need a proxy server, add it here!! -->
+  <proxies>
+    <proxy>
+      <active>false</active>
+      <protocol>http</protocol>
+      <host>10.0.0.1</host>
+      <port>8080</port>
+      <nonProxyHosts>localhost|127.0.0.1</nonProxyHosts>
+   </proxy>
+  </proxies>
 </settings>
